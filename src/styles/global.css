@@ -4,5 +4,6 @@
 
 
 body {
-    @apply bg-gray-900 text-zinc-100;/* na parte de trocar a cor de fundo*/
+    @apply bg-gray-900 text-gray-100;
+    -webkit-font-smoothing: antialiased;
 }
