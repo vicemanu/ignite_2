@@ -12,7 +12,7 @@ interface LessonProps {
 export function Lesson(props: LessonProps) {
     const isLessonAvailable = isPast(props.availableAt);
     const availableDateFormatted = format(props.availableAt, "EEEE ' • ' d ' de ' MMMM ' • ' K'h'mm", {
-        locale: ptBR,
+        locale: ptBR, 
     })
     return (
         <a href="">
