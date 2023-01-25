@@ -4,6 +4,8 @@ import { Sidebar } from "../components/Sidebar"
 import { Video } from "../components/Video"
 
 export function Event() {
+
+    const {} = 
     return (
         <div className="flex flex-col min-h-screen">
             <Header/>
