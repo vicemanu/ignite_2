@@ -6,6 +6,7 @@ import { useParams } from "react-router-dom";
 
 
 export function Event() {
+    
 
     const { slug } = useParams<{ slug: string }>()
     return (
